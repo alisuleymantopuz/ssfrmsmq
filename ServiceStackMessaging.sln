@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackMessaging.Web", "ServiceStackMessaging.Web\ServiceStackMessaging.Web\ServiceStackMessaging.Web.csproj", "{1A0B2688-5D54-4064-8D4F-82E5C6124DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackMessaging.Web.ServiceModel", "ServiceStackMessaging.Web\ServiceStackMessaging.Web.ServiceModel\ServiceStackMessaging.Web.ServiceModel.csproj", "{D23AA163-2C7E-4CEB-A33F-2FED51127587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackMessaging.Web.ServiceInterface", "ServiceStackMessaging.Web\ServiceStackMessaging.Web.ServiceInterface\ServiceStackMessaging.Web.ServiceInterface.csproj", "{9AA146FB-6CF8-4E5E-A400-EE6E62F83BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackMessaging.Web.Tests", "ServiceStackMessaging.Web\ServiceStackMessaging.Web.Tests\ServiceStackMessaging.Web.Tests.csproj", "{DA12707D-E7D9-425A-805B-773B39C38D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackMessaging.Web.Message.Producer", "ServiceStackMessaging.Web.Message.Producer\ServiceStackMessaging.Web.Message.Producer.csproj", "{278893D7-2569-46A1-BAD6-B36B33B7BD8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A0B2688-5D54-4064-8D4F-82E5C6124DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0B2688-5D54-4064-8D4F-82E5C6124DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0B2688-5D54-4064-8D4F-82E5C6124DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0B2688-5D54-4064-8D4F-82E5C6124DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23AA163-2C7E-4CEB-A33F-2FED51127587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23AA163-2C7E-4CEB-A33F-2FED51127587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23AA163-2C7E-4CEB-A33F-2FED51127587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23AA163-2C7E-4CEB-A33F-2FED51127587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA146FB-6CF8-4E5E-A400-EE6E62F83BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA146FB-6CF8-4E5E-A400-EE6E62F83BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA146FB-6CF8-4E5E-A400-EE6E62F83BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA146FB-6CF8-4E5E-A400-EE6E62F83BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA12707D-E7D9-425A-805B-773B39C38D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA12707D-E7D9-425A-805B-773B39C38D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA12707D-E7D9-425A-805B-773B39C38D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA12707D-E7D9-425A-805B-773B39C38D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278893D7-2569-46A1-BAD6-B36B33B7BD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278893D7-2569-46A1-BAD6-B36B33B7BD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278893D7-2569-46A1-BAD6-B36B33B7BD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278893D7-2569-46A1-BAD6-B36B33B7BD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
